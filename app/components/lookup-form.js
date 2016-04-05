@@ -6,7 +6,7 @@ export default Ember.Component.extend({
       var params = {
         zip: this.get('zip')
       };
-      this.sendAction('zipLookup', params)
+      this.sendAction('zipLookup', params);
     }
   }
 });
